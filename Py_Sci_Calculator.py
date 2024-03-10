@@ -3,7 +3,7 @@ import math
 import tkinter.messagebox
 
 root = Tk()
-root.title("Calculadora Cientifica")
+root.title("Calculadora Científica")
 root.resizable(width=False, height=False)
 root.geometry("400x492+460+40")
 
