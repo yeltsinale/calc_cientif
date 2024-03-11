@@ -17,10 +17,14 @@ calc.grid()
 menubar = Menu(calc)
 #tearoff -> abre otra ventan
 filemenu = Menu(menubar, tearoff= 0)
-menubar.add_cascade(label = "File", menu =filemenu)
-filemenu.add_command(label = "Standard", menu =filemenu)
+menubar.add_cascade(label = "Archivo", menu =filemenu)
+filemenu.add_command(label = "Standard")
+filemenu.add_separator()
+filemenu.add_command(label = "Científica")
+filemenu.add_separator()
+filemenu.add_command(label = "Salir")
 
-
+root.config(menu = menubar)
 root.mainloop()
 
 
