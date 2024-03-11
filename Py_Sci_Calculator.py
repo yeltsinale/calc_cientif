@@ -6,6 +6,10 @@ root = Tk()
 root.title("Calculadora Científica")
 root.resizable(width=False, height=False)
 root.geometry("400x492+460+40")
+##################
+######
+
+print("HI")
 
 #frame -> marco contenedor
 MainFrame = Frame(root, bd=20, pady = 2 , relief = RIDGE).grid()
