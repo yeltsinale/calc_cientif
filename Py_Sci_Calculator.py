@@ -19,6 +19,12 @@ calc.grid()
 class Calc():
     def __init__(self):
         self.total = 0
+        self.current = ""
+        self.input_value = True
+        self.check_sum = False
+        self.op=""
+        self.result = False
+        
 
 
 menubar = Menu(calc)
@@ -27,11 +33,14 @@ filemenu = Menu(menubar, tearoff= 0)
 menubar.add_cascade(label = "Archivo", menu =filemenu)
 filemenu.add_command(label = "Standard")
 filemenu.add_separator()
-filemenu.add_command(label = "Cientifica")
-filemenu.add_command(label = "xD    ")
+filemenu.add_command(label = "CientÍfica")
+filemenu.add_command(label = "CientÍfica")
+filemenu.add_command(label = "CientÍfica")
+filemenu.add_command(label = "CientÍfica")
+
 filemenu.add_separator()
 filemenu.add_command(label = "Salir")
-filemenu.add_command(label = "Salir")
+
 
 root.config(menu = menubar)
 root.mainloop()
