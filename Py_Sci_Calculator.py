@@ -37,6 +37,8 @@ filemenu.add_command(label = "CientÍfica")
 filemenu.add_command(label = "CientÍfica")
 filemenu.add_command(label = "CientÍfica")
 filemenu.add_command(label = "CientÍfica")
+filemenu.add_command(label = "CientÍfica")
+filemenu.add_command(label = "CientÍfica")d
 
 filemenu.add_separator()
 filemenu.add_command(label = "Salir")
